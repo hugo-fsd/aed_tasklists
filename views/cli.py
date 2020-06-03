@@ -150,4 +150,3 @@ class CLI:
 
             elif commands[0] == "L":
                 filename = commands[1]
-
