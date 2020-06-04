@@ -1,2 +1,4 @@
 class User:
-    pass
+    def __init__(self, user_name):
+        self.name = user_name
+    
