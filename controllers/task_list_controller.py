@@ -1,4 +1,8 @@
+from aed_ds.dictionaries import HashTable
+
 class TaskListController:
+    def __init__(self):
+        self.users = HashTable()
 
     def has_user(self, user_name):
         pass
